@@ -2,6 +2,7 @@
    margin: 0;
 }
 
+/* Custom-styling-for-Carousel-responsive-caption-starts */
 .shadow::after{
    content: "";
    position: absolute;
@@ -10,14 +11,41 @@
    height: 100%;
    width: 100%;
    background-color: black;
-   opacity: .4;
+   opacity: .5;
 }
 
 .carousel-caption {
-   top: 32%;
+   top: 28%;
    bottom: auto;
 }
 
+.carousel-height{
+   height: 520px;
+   max-height: 800px;
+}
+
+.bg-img-crsl-1{
+   background-image: url(../images/cover/selected-cover-1.jpg);
+   background-size: cover;
+}
+
+.bg-img-crsl-two{
+   background-image: url(../images/cover/selected-cover-2.jpg);
+   background-size: cover;
+}
+
+.bg-img-crsl-three{
+   background-image: url(../images/cover/selected-cover-3.jpg);
+   background-size: cover;
+}
+
+.carousel-caption{
+   z-index: 2;
+}
+
+/* Custom-styling-for-Carousel-responsive-caption-end */
+
+/* Custom-styling-for-Feedback-Carousel-Coltrol-button-starts */
 .previous-icon, .next-icon {
    height: 100px;
    width: 100px;
@@ -42,6 +70,11 @@
    left: 90%;
 }
 
+/* Custom-styling-for-Feedback-Carousel-Coltrol-button-end */
+
+
+
+/* Custom Footer Style starts */
 .footer-social-icons {
    color: white;
    display: flex;
@@ -65,3 +98,5 @@
    color: red;
    font-size: 2rem;
 }
+
+/* Custom Footer Style end */
