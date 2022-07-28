@@ -276,7 +276,42 @@
           <p>If are you interested to enroll our next batch register with you valid email and related information. We are waiting to see you in the course.</p>
         </div>
         <div class="col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-end">
-          <div><button class="btn btn-light py-3 px-5 text-uppercase text-primary fw-bold">Enroll Now</button></div>
+
+          <!-- Modal-For-Registration-Button -->
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-light py-3 px-5 text-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Enroll Now
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body mx-3">
+          <div class="md-form mb-5">
+            <i class="fas fa-envelope prefix grey-text"></i>
+            <input type="email" id="defaultForm-email" class="form-control validate">
+            <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+          </div>
+  
+          <div class="md-form mb-4">
+            <i class="fas fa-lock prefix grey-text"></i>
+            <input type="password" id="defaultForm-pass" class="form-control validate">
+            <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
         </div>
       </div>
     </section>
