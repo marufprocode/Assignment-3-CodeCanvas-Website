@@ -17,3 +17,27 @@
    top: 32%;
    bottom: auto;
 }
+
+.previous-icon, .next-icon {
+   height: 100px;
+   width: 100px;
+   outline: rgb(43, 55, 172);
+   background-color: rgba(44, 12, 185, 0.3);
+   background-size: 100%, 100%;
+   border-radius: 50%;
+   border: 1px solid rgb(28, 82, 151);
+   position: absolute;
+   left: 0;
+}
+
+.next-icon {
+   height: 100px;
+   width: 100px;
+   outline: rgb(43, 55, 172);
+   background-color: rgba(44, 12, 185, 0.3);
+   background-size: 100%, 100%;
+   border-radius: 50%;
+   border: 1px solid rgb(28, 82, 151);
+   position: absolute;
+   left: 90%;
+}
